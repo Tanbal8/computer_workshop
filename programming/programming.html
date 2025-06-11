@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>علی رادمرد</title>
+        <link rel="stylesheet" href="programming.css">
+    </head>
+    <body>
+        <div class="menu">
+            <a href="../index.html">صفحه اصلی</a>
+            <a href="barname_kelasi/barname_kelasi.html">برنامه کلاسی</a>
+            <a href="vahed/vahed.html">واحدها</a>
+            <a>برنامه نویسی</a>
+        </div>
+        <p>مهارت برنامه نویسی</p>
+        <canvas id="chart"></canvas>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+        <script>
+            const xValues = ["HTML", "CSS", "Javascript", "PHP", "C++", "Python"];
+            const yValues = [70, 75, 75, 20, 25, 10];
+            const barColors = ["#E44D26", "#264DE4", "#F7DF1E", "#777BB4", "#00599C", "#3776AB"];
+            new Chart(document.getElementById("chart"), {
+                type: "bar",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                        backgroundColor: barColors,
+                        data: yValues
+                    }]
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        x: {
+                            ticks: {
+                                font: {
+                                    size: 18
+                                }
+                            }
+                        },
+                        y: {
+                            max: 100,
+                            ticks: {
+                                font: {
+                                    size: 18
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        </script>        
+    </body>
+</html>

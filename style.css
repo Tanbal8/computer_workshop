@@ -33,6 +33,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 25px;
     font-family: 'b titr';
     box-sizing: border-box;

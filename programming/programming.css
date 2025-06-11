@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'b titr';
+    src: url(../font/BTitrBd.ttf);
+}
+@font-face {
+    font-family: 'b nazanin';
+    src: url(../font/BNazanin.ttf);
+}
+body {
+    margin: 0;
+    background-color: rgb(230, 241, 255);
+}
+.menu {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(0, 115, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px #555;
+}
+.menu > a {
+    margin: 10px;
+    width: 150px;
+    height: 70px;
+    color: rgb(0, 115, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(168, 207, 255);
+    cursor: pointer;
+    transition: scale 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'b titr';
+    box-sizing: border-box;
+}
+.menu > a:hover {
+    scale: 1.05;
+}
+.menu > a:nth-child(4) {
+    border: 5px solid blue;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'b titr';
+    margin-top: 15px;
+}
+#chart {
+    width: 70vw !important;
+    height: fit-content !important;
+    margin: 0 auto;
+    font-size: 20px;
+}
