@@ -48,7 +48,7 @@ p {
     text-align: center;
     font-size: 25px;
     font-family: 'b titr';
-    margin-top: 15px;
+    margin: 10px 0 8px;
 }
 #chart {
     width: 65vw !important;
