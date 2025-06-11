@@ -32,6 +32,32 @@ body {
 .menu > a:hover {
     scale: 1.05;
 }
-.menu > a:nth-child(1) {
+.menu > a:nth-child(2) {
     border: 5px solid blue;
+}
+.chart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    direction: rtl;
+    border-collapse: collapse;
+}
+.chart tr > * {
+    border: 2px solid black;
+    padding: 6px 10px;
+    font-size: 18px;
+    font-family: 'b nazanin';
+    font-weight: bold;
+    text-wrap: nowrap;
+    text-align: center;
+}
+.chart th {
+    background-color: orange;
+}
+.chart tr:nth-child(odd) {
+    background-color: yellow;
+}
+.chart tr:nth-child(even) {
+    background-color: gold;
 }
