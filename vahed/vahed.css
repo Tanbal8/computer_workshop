@@ -47,25 +47,38 @@ body {
 .menu > a:nth-child(3) {
     border: 5px solid blue;
 }
+.columns {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.columns > div {
+    display: flex;
+    flex-direction: column;
+}
 .title {
-    font-size: 28px;
+    font-size: 30px;
     font-family: 'b titr';
     direction: rtl;
     text-align: right;
     display: block;
     text-indent: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 ul {
     direction: rtl;
-    margin-right: 15px;
-    font-size: 23px;
+    font-size: 25px;
     font-family: 'b nazanin';
-    margin: 0 15px 0 0;
+    margin: 10px 15px 0 0;
+    text-align: center;
+    line-height: 50px;
+}
+ul > li {
+    width: fit-content;
 }
 .total {
-    font-size: 22px;
+    font-size: 25px;
     font-family: 'b koodak';
     direction: rtl;
-    margin: 0 15px 0;
+    margin: 10px 15px 0;
 }

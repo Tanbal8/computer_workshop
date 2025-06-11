@@ -43,3 +43,64 @@ body {
 .menu > a:nth-child(1) {
     border: 5px solid blue;
 }
+.name {
+    font: 30px;
+}
+.information {
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    justify-content: space-evenly;
+}
+.information > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: 'b titr';
+    text-align: right;
+    margin: 10px 0;
+}
+.information > div > div {
+    margin: 10px 0;
+}
+.image {
+    width: 150px;
+    border-radius: 10px;
+    transition: scale 0.2s;
+}
+.image:hover {
+    scale: 1.04;
+}
+.game, .github-address {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: scale 0.2s;
+}
+.game:hover, .github-address:hover {
+    scale: 1.04;
+}
+.game {
+    align-items: center;
+}
+.game > div {
+    font-size: 30px;
+    font-family: 'b koodak';
+}
+.github-address {
+    flex-direction: row;
+}
+.github-address > img {
+    width: 50px;
+    margin-right: 5px;
+}
+.github-address > div {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+}
