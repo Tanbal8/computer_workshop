@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'b titr';
-    src: url(../../../Code/font/persian/BTitrBd.ttf);
+    src: url(../font/BTitrBd.ttf);
 }
 @font-face {
     font-family: 'b nazanin';
-    src: url(../../../Code/font/persian/BNazanin.ttf);
+    src: url(../font/BNazanin.ttf);
 }
 @font-face {
     font-family: 'b koodak';
-    src: url(../../../Code/font/persian/BKoodkBd.ttf);
+    src: url(../font/BKoodkBd.ttf);
 }
 body {
     margin: 0;
